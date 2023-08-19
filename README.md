@@ -88,3 +88,87 @@ CSS
 ![Screenshot 2023-08-17 143429](https://github.com/rupesh0511/coffee_house/assets/69234169/e33807d7-7e98-40ab-b850-7c13c034e212)
 ![Screenshot 2023-08-17 143444](https://github.com/rupesh0511/coffee_house/assets/69234169/b5bf227a-8b7c-4677-9aac-e01b689ff25e)
 ![Screenshot 2023-08-17 143453](https://github.com/rupesh0511/coffee_house/assets/69234169/0230cea5-9d0a-4373-8c37-a32d45a54fb9)
+
+
+Universal Reset:
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+This universal selector applies to all elements and resets their padding and margin to zero, while also using the "border-box" box-sizing model. It's a common technique to ensure consistent spacing and sizing in your layout.
+Container Styles:
+
+
+
+.container { width: 100%; height: 100%; background-color: #EDD4D4; }
+This styles the container with a width and height of 100%, making it take up the entire viewport. It also sets the background color to a light pinkish color (#EDD4D4).
+
+
+Navbar Styles:
+
+
+.navbar { height: 40vh; ... }
+
+This styles the navbar, giving it a height of 40% of the viewport height ("40vh").
+
+
+.navbar > input { ... }
+
+This styles the input element inside the navbar, making it sticky at the top, setting its width, height, background color, and more.
+
+
+Image Container Styles:
+
+
+.image-container { width: 100%; height: 30vh; ... }
+This styles the image container, giving it a width of 100% and a height of 30% of the viewport height ("30vh").
+
+
+Image Styles:
+
+
+.image1 { height: 200px; width: 200px; }
+
+This styles the individual images within the image containers, setting their height and width to 200px.
+
+
+img:hover { height: 155px; width: 155px; }
+
+This scales down the size of images to 155x155 pixels when hovering over them.
+
+
+img { ... }
+
+This styles all images, setting their margin, making them circular with border-radius, setting their width and height to 150px, adding a box shadow, and giving them a left margin.
+
+
+Description Styles:
+
+
+.description { ... }
+This styles the description section with a width of 90%, a height of 55% of the viewport height, a rounded border, a box shadow, a background color, and padding.
+
+
+List Styles:
+
+
+ol { margin-bottom: 1%; color: #A52A2A; }
+
+This styles ordered lists, adding a small bottom margin and setting the text color to brown (#A52A2A).
+
+
+li { padding: 8px; }
+
+This styles list items, adding padding around them.
+
+
+Paragraph Styles:
+
+
+p { margin-bottom: 2%; }
+This styles paragraphs, giving them a bottom margin.
+Text Color:
+
+
+
+.colour { color: #A52A2A; }
+This styles elements with the class "colour," setting their text color to brown (#A52A2A).
+
